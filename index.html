@@ -6,6 +6,7 @@
   <title>ReSource — Courtage de textiles techniques industriels | Grand Est</title>
   <meta name="description" content="ReSource qualifie les flux de textiles techniques industriels en Grand Est et organise la mise en relation entre industriels et valorisateurs." />
   <link rel="canonical" href="https://red-engineering.fr" />
+  <link rel="icon" href="favicon.png" type="image/png">
   <link rel="stylesheet" href="style.css" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,14 +44,12 @@
   <!-- NAVIGATION -->
   <header class="site-header">
     <nav class="nav container" aria-label="Navigation principale">
-      <a href="#accueil" class="nav-brand" aria-label="ReSource — Red Engineering Solutions">
-        <img
-          id="logo"
-          src="assets/logo.png"
-          alt="Red Engineering Solutions — ReSource"
-          onerror="this.style.display='none'; document.getElementById('logo-fallback').style.display='inline';"
-        />
-        <span id="logo-fallback" class="logo-text" aria-hidden="true">ReSource</span>
+      <a href="#accueil" class="nav-brand">
+        <img src="assets/logo-red-engineering.png" alt="Red Engineering Solutions" class="nav-logo">
+        <div class="nav-brand-text">
+          <span class="nav-brand-company">Red Engineering Solutions</span>
+          <span class="nav-brand-project">ReSource</span>
+        </div>
       </a>
       <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false" aria-controls="nav-links">
         <span></span><span></span><span></span>
@@ -79,23 +78,31 @@
 
     <!-- INDUSTRIELS -->
     <section id="industriels" class="section section-alt" aria-labelledby="industriels-heading">
-      <div class="container section-inner">
-        <div class="section-label">Pour les industriels</div>
-        <h2 id="industriels-heading">Vos déchets de textiles techniques (PET, PA, mélange) n'ont pas d'exutoire identifié.</h2>
-        <p>Aujourd'hui, ils sont intégrés à votre prestation d'enlèvement DIB, à un coût qui pèse de plus en plus sur votre budget déchets. Une partie de ce gisement a pourtant une valeur matière réelle.</p>
-        <p>ReSource prend en charge la qualification technique du flux : composition, volume, régularité, conditionnement. Sur cette base, j'identifie les valorisateurs adaptés et organise la mise en relation.</p>
-        <a href="#contact" class="btn btn-primary">Discutons de votre gisement</a>
+      <div class="container section-split">
+        <div class="section-split-left">
+          <div class="section-label">Pour les industriels</div>
+          <h2 id="industriels-heading" class="section-headline">Vos déchets de textiles techniques (PET, PA, mélange) n'ont pas d'exutoire identifié.</h2>
+        </div>
+        <div class="section-split-right">
+          <p>Aujourd'hui, ils sont intégrés à votre prestation d'enlèvement DIB, à un coût qui pèse de plus en plus sur votre budget déchets. Une partie de ce gisement a pourtant une valeur matière réelle.</p>
+          <p>ReSource prend en charge la qualification technique du flux : composition, volume, régularité, conditionnement. Sur cette base, j'identifie les valorisateurs adaptés et organise la mise en relation.</p>
+          <a href="#contact" class="btn btn-navy">Discutons de votre gisement</a>
+        </div>
       </div>
     </section>
 
     <!-- VALORISATEURS -->
     <section id="valorisateurs" class="section" aria-labelledby="valorisateurs-heading">
-      <div class="container section-inner">
-        <div class="section-label">Pour les valorisateurs</div>
-        <h2 id="valorisateurs-heading">Vous cherchez des gisements de textiles techniques (PET, PA) en région Grand Est, caractérisés avant d'arriver chez vous.</h2>
-        <p>Un approvisionnement local en matière secondaire qualifiée réduit vos coûts logistiques et sécurise votre approvisionnement. Identifier des gisements adaptés à votre procédé demande du temps et une connaissance du terrain.</p>
-        <p>Les gisements que je vous transmets sont déjà documentés : nature de la matière, volumes disponibles, régularité du flux, format de conditionnement. Vous décidez sur la base de données concrètes.</p>
-        <a href="#contact" class="btn btn-primary">Nous contacter</a>
+      <div class="container section-split">
+        <div class="section-split-left">
+          <div class="section-label">Pour les valorisateurs</div>
+          <h2 id="valorisateurs-heading" class="section-headline">Vous cherchez des gisements de textiles techniques (PET, PA) en région Grand Est, caractérisés avant d'arriver chez vous.</h2>
+        </div>
+        <div class="section-split-right">
+          <p>Un approvisionnement local en matière secondaire qualifiée réduit vos coûts logistiques et sécurise votre approvisionnement. Identifier des gisements adaptés à votre procédé demande du temps et une connaissance du terrain.</p>
+          <p>Les gisements que je vous transmets sont déjà documentés : nature de la matière, volumes disponibles, régularité du flux, format de conditionnement. Vous décidez sur la base de données concrètes.</p>
+          <a href="#contact" class="btn btn-navy">Nous contacter</a>
+        </div>
       </div>
     </section>
 
@@ -130,7 +137,11 @@
 
     <!-- À PROPOS -->
     <section id="a-propos" class="section" aria-labelledby="apropos-heading">
-      <div class="container section-inner section-inner--narrow">
+      <div class="container section-split section-split--apropos">
+        <div class="section-split-left">
+          <img src="assets/portrait-mathieu.jpg" alt="Mathieu Petelot" class="apropos-photo">
+        </div>
+        <div class="section-split-right">
         <div class="section-label">À propos</div>
         <h2 id="apropos-heading">Mathieu Petelot</h2>
         <p>Ingénieur de formation (Arts &amp; Métiers ParisTech, Georgia Tech), j'ai passé une dizaine d'années dans un cabinet de conseils en ingénierie, en tant que chef de projets auprès de clients industriels variés.</p>
@@ -138,6 +149,7 @@
         <p>Le problème n'était pas un manque de solution, mais l'absence de mise en relation qualifiée entre les deux.</p>
         <p>J'ai créé le projet ReSource pour combler cet écart. L'approche est applicable à différents flux de matières industrielles&nbsp;: je l'engage aujourd'hui sur les textiles techniques en Grand Est.</p>
         <p>Je constitue un réseau de partenaires industriels et valorisateurs sur ce territoire. Si vous êtes concerné, je suis disponible pour en discuter. Le projet est incubé au <strong>Quai Alpha</strong> à Épinal depuis septembre&nbsp;2025.</p>
+        </div>
       </div>
     </section>
 
@@ -146,23 +158,7 @@
       <div class="container">
         <div class="section-label">Blog et Articles</div>
         <h2 id="ressources-heading">À lire sur ReSource</h2>
-        <div class="blog-cards">
-
-          <article class="blog-card" aria-labelledby="article1-title">
-            <span class="blog-date">Mai 2025</span>
-            <h3 id="article1-title">Textiles techniques industriels : pourquoi les filières classiques peinent à les valoriser</h3>
-            <p>PET, PA, fibres mixtes — la spécificité de ces matières impose une qualification rigoureuse avant toute mise en relation. Un état des lieux des blocages et des leviers possibles.</p>
-            <a href="#" class="blog-link" aria-label="Lire l'article : Textiles techniques industriels">Lire l'article <span aria-hidden="true">→</span></a>
-          </article>
-
-          <article class="blog-card" aria-labelledby="article2-title">
-            <span class="blog-date">Avril 2025</span>
-            <h3 id="article2-title">Courtage industriel et économie circulaire : un métier de terrain</h3>
-            <p>Le courtage de matières secondaires ne se fait pas derrière un écran. Retour sur la posture terrain qui différencie ReSource d'une simple mise en relation en ligne.</p>
-            <a href="#" class="blog-link" aria-label="Lire l'article : Courtage industriel et économie circulaire">Lire l'article <span aria-hidden="true">→</span></a>
-          </article>
-
-        </div>
+        <p class="blog-placeholder">Des ressources techniques sur les filières textiles en cours de rédaction.</p>
       </div>
     </section>
 
@@ -253,8 +249,19 @@
   <!-- FOOTER -->
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>&copy; <span id="year"></span> Red Engineering Solutions — ReSource. Tous droits réservés.</p>
-      <p>Épinal, Vosges — Grand Est, France</p>
+      <div class="footer-brand">
+        <a href="#accueil" class="nav-brand">
+          <img src="assets/logo-red-engineering.png" alt="Red Engineering Solutions" class="nav-logo footer-logo">
+          <div class="nav-brand-text">
+            <span class="nav-brand-company">Red Engineering Solutions (auto-entreprise)</span>
+            <span class="nav-brand-project">Projet ReSource</span>
+          </div>
+        </a>
+      </div>
+      <div class="footer-contact">
+        <p><a href="mailto:contact@red-engineering.fr">contact@red-engineering.fr</a></p>
+        <p><a href="tel:+33778265683">+33&nbsp;7&nbsp;78&nbsp;26&nbsp;56&nbsp;83</a></p>
+      </div>
     </div>
   </footer>
 
