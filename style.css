@@ -108,6 +108,7 @@ address {
 .nav-brand {
   display: flex;
   align-items: center;
+  gap: 16px;
   text-decoration: none;
   flex-shrink: 0;
 }
@@ -118,7 +119,7 @@ address {
 }
 
 .nav-logo {
-  height: 40px;
+  height: 50px;
   width: auto;
 }
 
@@ -400,6 +401,14 @@ address {
   margin-bottom: var(--space-m);
 }
 
+#industriels p,
+#valorisateurs p,
+#a-propos p,
+.card p {
+  text-align: justify;
+  hyphens: auto;
+}
+
 .section p:last-child {
   margin-bottom: 0;
 }
@@ -470,7 +479,7 @@ address {
 }
 
 .card h3 {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 700;
   color: var(--color-primary-dark);
   margin-bottom: var(--space-xs);
@@ -693,7 +702,11 @@ address {
 }
 
 .footer-logo {
-  height: 32px;
+  height: 50px;
+}
+
+.footer-brand .nav-brand {
+  gap: 16px;
 }
 
 .footer-contact {
@@ -784,6 +797,13 @@ address {
 
   .btn-submit {
     width: 100%;
+  }
+
+  #industriels p,
+  #valorisateurs p,
+  #a-propos p,
+  .card p {
+    text-align: left;
   }
 }
 
